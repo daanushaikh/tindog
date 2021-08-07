@@ -1,0 +1,179 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+p {
+  font-family: "Ubuntu";
+  color: #8f8f8f;
+}
+
+
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 18px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+
+
+/* Download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+  font-family: "Ubuntu";
+}
+
+/* Title image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features section */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* icons */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+em {
+  font-family: "Ubuntu";
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press  */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+  /* top left right bottom */
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body:hover {
+  box-shadow: 10px 10px 15px grey;
+}
+
+/* cta */
+#cta {
+  text-align: center;
+  padding: 8% 10%;
+  background-color: #ff4c68;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  background-color: #fff;
+  margin: 80px 40px;
+}
+
+.heading {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.f-icon {
+  margin: 20px 10px;
+}
+
+.f-icon:hover {
+  color: #ff0000;
+}
+
+.heart:hover {
+  color: #ff0000;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
